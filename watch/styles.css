@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto+Slab',sans-serif;
+}
+#heading{
+    height: 100px;
+    background-color:#696969;
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 75px;
+}
+#watch{
+    height: 500px;
+}
+#watch-wrapper{
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+}
+#clock{
+    font-size:30px;
+    font-weight: bold;
+    position: absolute;
+    top:14.8rem;
+    left:10.9rem;
+    color: white;
+}
+#heartrate{
+    position: absolute;
+    top:12rem;
+    left:13.7rem;
+    color:#fff;
+    z-index: 1;
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+#heartrate>i{
+    color:red;
+    font-size: 60px;
+    animation-name: heartbeat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+#heartrate>p{
+    margin-top:5px;
+    font-size: 40px;
+    animation-name: number;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes heartbeat {
+    from {
+      transform: scale(0.8);
+    }
+    to {
+      transform: scale(1.2);
+    }
+}
+@keyframes number {
+    from {
+      transform: scale(1.2);
+    }
+    to {
+      transform: scale(0.8);
+    }
+}
+
+#disply{
+    box-sizing: border-box;
+    width:50%;
+    padding-right: 2%;  
+    font-weight: 400;
+}
+#disply>h1{
+font-weight: 1000px;
+}
+#disply>h2{
+font-weight: 700px;
+}
+#item-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#black{
+    height: 50px;
+    width: 80px;
+    background-color: black;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    outline: none;
+}
+#purple{
+    background-color:  #8a5362;
+    height: 50px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    margin-right: 10px;
+    outline: none;
+}
+#red{
+    background-color: #ca3d22;
+    height: 50px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    margin-right: 10px;
+    outline: none;
+}
+#blue{
+    background-color: #565681;
+    height: 50px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    margin-right: 10px;
+    outline: none;
+}
+#pink{
+    background-color: #e9c7be;
+    height: 50px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    outline: none;
+}
+.button{
+    background-color: #D3D3D3;
+    height: 50px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    color:black;
+    font-size: 17px;
+    font-weight: 550;
+    margin-right: 10px;
+    outline: none;
+}
+#buy{
+    background-color: rgb(53, 53, 50);
+    height: 50px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    color:white;
+    font-size: 17px;
+    font-weight: 550;
+    margin-right: 10px;
+    outline: none;
+    margin-top: 40px;
+    
+}
